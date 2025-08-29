@@ -1,0 +1,260 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_barcodes_picking_batch
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__product_ref_done
+msgid "#Product Ref done:"
+msgstr "#Ref proizvoda završeno:"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__product_ref_count
+msgid "#Product Ref:"
+msgstr "#Ref proizvoda:"
+
+#. module: stock_barcodes_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form
+msgid "<i class=\"fa fa-trash\" title=\"Remove\" style=\"font-size:1.5em\"/>"
+msgstr "<i class=\"fa fa-trash\" title=\"Ukloni\" style=\"font-size:1.5em\"/>"
+
+#. module: stock_barcodes_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form
+msgid "<i class=\"fa fa-upload\" title=\"Fill from pencil\" style=\"font-size:1.5em\"/>"
+msgstr "<i class=\"fa fa-upload\" title=\"Popuni sa olovke\" style=\"font-size:1.5em\"/>"
+
+#. module: stock_barcodes_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.stock_batch_picking_form
+msgid "<span class=\"o_stat_text\">Scan barcodes</span>"
+msgstr "<span class=\"o_stat_text\">Skeniraj barkodove</span>"
+
+#. module: stock_barcodes_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form
+msgid "<span for=\"product_ref_count\">#Ref: </span>"
+msgstr "<span for=\"product_ref_count\">#Ref: </span>"
+
+#. module: stock_barcodes_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form
+msgid ""
+"<span> | </span>\n"
+"                                                    <span for=\"product_ref_done\">#Read: </span>"
+msgstr ""
+
+#. module: stock_barcodes_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form
+msgid "Are you sure to validate the picking batch?"
+msgstr "Jeste li sigurni da želite validirati seriju pobranja?"
+
+#. module: stock_barcodes_picking_batch
+#. odoo-python
+#: code:addons/stock_barcodes_picking_batch/wizard/stock_barcodes_read_picking_batch.py:0
+#, python-format
+msgid "Barcode reader"
+msgstr "Čitač barkoda"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.actions.act_window,name:stock_barcodes_picking_batch.action_stock_barcodes_read_picking_batch
+msgid "Barcodes Read"
+msgstr "Pročitani barkodovi"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model,name:stock_barcodes_picking_batch.model_stock_picking_batch
+msgid "Batch Transfer"
+msgstr "Skupni prijenos"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__name
+msgid "Candidate Picking Batch"
+msgstr "Kandidatska serija pobranja"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_stock_barcodes_read_picking__candidate_picking_batch_ids
+msgid "Candidate picking batch"
+msgstr "Kandidatska serija pobranja"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model,name:stock_barcodes_picking_batch.model_wiz_candidate_picking_batch
+msgid "Candidate picking batchs for barcode interface"
+msgstr "Kandidatske serije pobranja za interfejs barkoda"
+
+#. module: stock_barcodes_picking_batch
+#. odoo-python
+#: code:addons/stock_barcodes_picking_batch/wizard/stock_barcodes_read_picking_batch.py:0
+#: code:addons/stock_barcodes_picking_batch/wizard/stock_barcodes_read_picking_batch.py:0
+#, python-format
+msgid "Click on picking batch pushpin to lock it"
+msgstr "Kliknite na kopču serije pobranja da je zakljuačate"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_stock_barcodes_read_picking__confirmed_moves
+msgid "Confirmed moves"
+msgstr "Potvrđeni pokreti"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__date
+msgid "Creation Date"
+msgstr "Datum kreiranja"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields.selection,name:stock_barcodes_picking_batch.selection__wiz_stock_barcodes_read_picking__picking_type_code__outgoing
+msgid "Customers"
+msgstr "Kupci"
+
+#. module: stock_barcodes_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form
+msgid "Detailed operations"
+msgstr "Detaljne operacije"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__id
+msgid "ID"
+msgstr "ID"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields.selection,name:stock_barcodes_picking_batch.selection__wiz_stock_barcodes_read_picking__picking_type_code__internal
+msgid "Internal"
+msgstr "Interni"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__is_pending
+msgid "Is Pending"
+msgstr "Na čekanju"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,help:stock_barcodes_picking_batch.field_wiz_stock_barcodes_read_picking__confirmed_moves
+msgid ""
+"It allows to work with movements without reservation (Without detailed "
+"operations)"
+msgstr ""
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: stock_barcodes_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form
+msgid "Lot:"
+msgstr "Serijski br.:"
+
+#. module: stock_barcodes_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form
+msgid "Open"
+msgstr "Otvori"
+
+#. module: stock_barcodes_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form
+msgid "Package:"
+msgstr "Paket:"
+
+#. module: stock_barcodes_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form
+msgid "Pending moves"
+msgstr "Pokreti na čekanju"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_stock_barcodes_read_picking__picking_batch_id
+msgid "Picking Batch"
+msgstr "Serija pobranja"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_stock_barcodes_read_picking__picking_mode
+msgid "Picking Mode"
+msgstr "Način pobranja"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__picking_batch_id
+#: model:stock.barcodes.action,name:stock_barcodes_picking_batch.stock_barcodes_action_picking_batch
+msgid "Picking batch"
+msgstr "Serija pobranja"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields.selection,name:stock_barcodes_picking_batch.selection__wiz_stock_barcodes_read_picking__picking_mode__picking_batch
+msgid "Picking batch mode"
+msgstr "Način rada serije pobranja"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_stock_barcodes_read_picking__picking_batch_product_qty
+msgid "Picking batch quantities"
+msgstr "Količine serije pobranja"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__scan_count
+msgid "Scan Count"
+msgstr "Broj skeniranja"
+
+#. module: stock_barcodes_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.stock_batch_picking_form
+#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.stock_picking_batch_kanban
+msgid "Start barcode interface"
+msgstr "Pokreni interfejs barkoda"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__state
+msgid "State"
+msgstr "Status"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_stock_barcodes_read_picking__picking_type_code
+msgid "Type of Operation"
+msgstr "Tip operacije"
+
+#. module: stock_barcodes_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form
+msgid "Validate"
+msgstr "Ovjeri"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields.selection,name:stock_barcodes_picking_batch.selection__wiz_stock_barcodes_read_picking__picking_type_code__incoming
+msgid "Vendors"
+msgstr "Dobavljači"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__wiz_barcode_id
+msgid "Wiz Barcode"
+msgstr "Čar. barkod"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__wiz_picking_batch_id
+msgid "Wizard Picking Batch"
+msgstr "Čarobnjak serije pobranja"
+
+#. module: stock_barcodes_picking_batch
+#: model:ir.model,name:stock_barcodes_picking_batch.model_wiz_stock_barcodes_read_picking
+msgid "Wizard to read barcode on picking batch"
+msgstr "Čarobnjak za čitanje barkoda na seriji pobranja"
