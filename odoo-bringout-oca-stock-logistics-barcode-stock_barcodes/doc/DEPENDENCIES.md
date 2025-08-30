@@ -2,8 +2,8 @@
 
 This addon depends on:
 
-- [barcodes](https://github.com/bringout/oca-ocb-technical/tree/c402a40a06d0be2fb22b984c2e7c0bd673fa7f80/odoo-bringout-oca-ocb-barcodes)
-- [stock](https://github.com/bringout/oca-ocb-warehouse/tree/9281cf64e8c89d4224a778a2e3c7eefc255a1add/odoo-bringout-oca-ocb-stock)
+- [barcodes](https://github.com/bringout/oca-ocb-technical/tree/823c95bfc5f4d48617544ec3cb80ffb889f07f55/odoo-bringout-oca-ocb-barcodes)
+- [stock](https://github.com/bringout/oca-ocb-warehouse/tree/a20991bbfdc7baa6dc44c859c38e8a739915edf9/odoo-bringout-oca-ocb-stock)
 - [web_widget_numeric_step](https://github.com/bringout/oca-technical)
-- [web](https://github.com/bringout/oca-ocb-core/tree/0e11bee18c8c7dd39664f7b81670e02dd0705e48/odoo-bringout-oca-ocb-web)
-- [mail](https://github.com/bringout/oca-ocb-core/tree/0e11bee18c8c7dd39664f7b81670e02dd0705e48/odoo-bringout-oca-ocb-mail)
+- [web](https://github.com/bringout/oca-ocb-core/tree/e9ca19c0c154b94934ea86258814c560c4e016f4/odoo-bringout-oca-ocb-web)
+- [mail](https://github.com/bringout/oca-ocb-core/tree/e9ca19c0c154b94934ea86258814c560c4e016f4/odoo-bringout-oca-ocb-mail)
