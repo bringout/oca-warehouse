@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: stock_free_quantity
 #: model_terms:ir.ui.view,arch_db:stock_free_quantity.product_normal_form_view
-#: model_terms:ir.ui.view,arch_db:stock_free_quantity.view_stock_available_form
 msgid "<span class=\"o_stat_text\">Free</span>"
 msgstr "<span class=\"o_stat_text\">Slobodno</span>"
 

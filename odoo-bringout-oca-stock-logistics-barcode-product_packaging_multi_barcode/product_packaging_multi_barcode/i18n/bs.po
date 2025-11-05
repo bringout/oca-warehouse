@@ -15,12 +15,14 @@ msgstr ""
 
 #. module: product_packaging_multi_barcode
 #. odoo-python
-#: code:addons/product_packaging_multi_barcode/models/product_barcode.py:0
+#: code:addons/product_packaging_multi_barcode/models/product_barcode.py
 #, python-format
 msgid ""
 "A packaging already uses the barcode or the barcode is already assigned to "
 "product(s)"
 msgstr ""
+"A packaging already uses the barcode or the barcode is already assigned to "
+"product(s)"
 
 #. module: product_packaging_multi_barcode
 #: model:ir.model.fields,help:product_packaging_multi_barcode.field_product_packaging__barcode
@@ -28,6 +30,9 @@ msgid ""
 "Barcode used for packaging identification. Scan this packaging barcode from "
 "a transfer in the Barcode app to move all the contained units"
 msgstr ""
+"Bar kod koji se koristi za identifikaciju pakovanja. Skenirajte ovaj bar kod"
+" pakovanja iz transfera u Barcode aplikaciji da premjestite sve sadržane "
+"jedinice"
 
 #. module: product_packaging_multi_barcode
 #: model:ir.model.fields,field_description:product_packaging_multi_barcode.field_product_packaging__barcode_ids
@@ -61,21 +66,25 @@ msgstr "Pakiranje proizvoda"
 
 #. module: product_packaging_multi_barcode
 #. odoo-python
-#: code:addons/product_packaging_multi_barcode/models/product_barcode.py:0
+#: code:addons/product_packaging_multi_barcode/models/product_barcode.py
 #, python-format
 msgid ""
 "The Barcode \"%(barcode_name)s\" already exists for packaging \"%(name)s\" "
 "in the company %(company_name)s."
 msgstr ""
+"The Barcode \"%(barcode_name)s\" already exists for packaging \"%(name)s\" "
+"in the company %(company_name)s."
 
 #. module: product_packaging_multi_barcode
 #. odoo-python
-#: code:addons/product_packaging_multi_barcode/models/product_barcode.py:0
+#: code:addons/product_packaging_multi_barcode/models/product_barcode.py
 #, python-format
 msgid ""
 "The Barcode \"%(barcode_name)s\" already exists for product "
 "\"%(product_name)s\" in the company %(company_name)s"
 msgstr ""
+"The Barcode \"%(barcode_name)s\" already exists for product "
+"\"%(product_name)s\" in the company %(company_name)s"
 
 #. module: product_packaging_multi_barcode
 #: model_terms:ir.ui.view,arch_db:product_packaging_multi_barcode.product_barcode_view_search

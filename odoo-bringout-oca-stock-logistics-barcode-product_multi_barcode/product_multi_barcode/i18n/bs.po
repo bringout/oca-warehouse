@@ -20,8 +20,6 @@ msgstr "Barkod"
 
 #. module: product_multi_barcode
 #: model:ir.model.fields,field_description:product_multi_barcode.field_product_product__barcode_ids
-#: model:ir.model.fields,field_description:product_multi_barcode.field_product_template__barcode_ids
-#: model_terms:ir.ui.view,arch_db:product_multi_barcode.product_search_form_view_multi_barcodes
 msgid "Barcodes"
 msgstr "Barkodovi"
 
@@ -30,16 +28,19 @@ msgstr "Barkodovi"
 msgid "Company"
 msgstr "Preduzeće"
 
+# taken from hr.po
 #. module: product_multi_barcode
 #: model:ir.model.fields,field_description:product_multi_barcode.field_product_barcode__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: product_multi_barcode
 #: model:ir.model.fields,field_description:product_multi_barcode.field_product_barcode__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: product_multi_barcode
 #: model:ir.model.fields,field_description:product_multi_barcode.field_product_barcode__display_name
 msgid "Display Name"
@@ -58,18 +59,22 @@ msgstr "Pojedinačna stavka u listi barkodova proizvoda"
 #. module: product_multi_barcode
 #: model:ir.model.fields,help:product_multi_barcode.field_product_product__barcode
 msgid "International Article Number used for product identification."
-msgstr "Internacionalni broj artikla koji se koristi za identifikaciju proizvoda."
+msgstr ""
+"Internacionalni broj artikla koji se koristi za identifikaciju proizvoda."
 
+# taken from hr.po
 #. module: product_multi_barcode
 #: model:ir.model.fields,field_description:product_multi_barcode.field_product_barcode____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: product_multi_barcode
 #: model:ir.model.fields,field_description:product_multi_barcode.field_product_barcode__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: product_multi_barcode
 #: model:ir.model.fields,field_description:product_multi_barcode.field_product_barcode__write_date
 msgid "Last Updated on"
@@ -80,14 +85,16 @@ msgstr "Zadnje ažurirano"
 msgid "Main barcode"
 msgstr "Glavni barkod"
 
+# taken from hr.po
 #. module: product_multi_barcode
 #: model:ir.model,name:product_multi_barcode.model_product_template
-#: model:ir.model.fields,field_description:product_multi_barcode.field_product_barcode__product_id
 msgid "Product"
 msgstr "Artikal"
 
+# taken from hr.po
 #. module: product_multi_barcode
 #: model:ir.model.fields,field_description:product_multi_barcode.field_product_barcode__product_tmpl_id
+#, fuzzy
 msgid "Product Tmpl"
 msgstr "Proizvod"
 
@@ -96,6 +103,7 @@ msgstr "Proizvod"
 msgid "Product Variant"
 msgstr "Varijanta proizvoda"
 
+# taken from hr.po
 #. module: product_multi_barcode
 #: model:ir.model.fields,field_description:product_multi_barcode.field_product_barcode__sequence
 msgid "Sequence"
@@ -103,9 +111,11 @@ msgstr "Sekvenca"
 
 #. module: product_multi_barcode
 #. odoo-python
-#: code:addons/product_multi_barcode/models/product_barcode.py:0
+#: code:addons/product_multi_barcode/models/product_barcode.py
 #, python-format
 msgid ""
 "The Barcode \"%(barcode_name)s\" already exists for product "
 "\"%(product_name)s\" in the company %(company_name)s"
 msgstr ""
+"The Barcode \"%(barcode_name)s\" already exists for product "
+"\"%(product_name)s\" in the company %(company_name)s"

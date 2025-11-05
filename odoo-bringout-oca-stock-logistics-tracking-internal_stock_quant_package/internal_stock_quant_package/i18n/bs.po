@@ -40,7 +40,6 @@ msgstr "Prazno"
 
 #. module: internal_stock_quant_package
 #: model:ir.model.fields,field_description:internal_stock_quant_package.field_stock_picking__empty_internal_package_on_transfer
-#: model:ir.model.fields,field_description:internal_stock_quant_package.field_stock_picking_type__empty_internal_package_on_transfer
 msgid "Empty Internal Package On Transfer"
 msgstr "Isprazni interni paket na transferu"
 
@@ -55,6 +54,8 @@ msgid ""
 "If set internal packages are emptied after the transfer or when products are"
 " put in pack."
 msgstr ""
+"Ako je postavljeno, interni paketi se prazne nakon transfera ili kada se "
+"proizvodi stave u paket."
 
 #. module: internal_stock_quant_package
 #: model_terms:ir.ui.view,arch_db:internal_stock_quant_package.stock_quant_package_search_view

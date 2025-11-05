@@ -15,52 +15,44 @@ msgstr ""
 
 #. module: barcodes_generator_product
 #: model:ir.model.fields,help:barcodes_generator_product.field_product_product__generate_type
-#: model:ir.model.fields,help:barcodes_generator_product.field_product_template__generate_type
 msgid ""
 "Allow to generate barcode, including a number  (a base) in the final barcode.\n"
 "\n"
 " - 'Base Set Manually' : User should set manually the value of the barcode base\n"
 " - 'Base managed by Sequence': System will generate the base via a sequence"
 msgstr ""
+"Omogućava generisanje barkoda, uključujući broj (bazu) u konačnom barkodu.\n"
+"\n"
+" - 'Baza postavljena ručno' : Korisnik treba ručno postaviti vrijednost baze barkoda\n"
+" - 'Baza upravljana sekvencijom': Sistem će generisati bazu putem sekvence"
 
 #. module: barcodes_generator_product
 #: model:ir.model.fields,field_description:barcodes_generator_product.field_product_product__barcode_base
-#: model:ir.model.fields,field_description:barcodes_generator_product.field_product_template__barcode_base
 msgid "Barcode Base"
 msgstr "Baza barkoda"
 
 #. module: barcodes_generator_product
 #: model:ir.model,name:barcodes_generator_product.model_barcode_rule
-#: model:ir.model.fields,field_description:barcodes_generator_product.field_product_product__barcode_rule_id
-#: model:ir.model.fields,field_description:barcodes_generator_product.field_product_template__barcode_rule_id
 msgid "Barcode Rule"
 msgstr "Barkod pravilo"
 
 #. module: barcodes_generator_product
 #: model_terms:ir.ui.view,arch_db:barcodes_generator_product.product_variant_easy_edit_view
-#: model_terms:ir.ui.view,arch_db:barcodes_generator_product.view_product_product_form
-#: model_terms:ir.ui.view,arch_db:barcodes_generator_product.view_product_template_form
 msgid "Generate Barcode"
 msgstr "Generiraj barkodove"
 
 #. module: barcodes_generator_product
 #: model_terms:ir.ui.view,arch_db:barcodes_generator_product.product_variant_easy_edit_view
-#: model_terms:ir.ui.view,arch_db:barcodes_generator_product.view_product_product_form
-#: model_terms:ir.ui.view,arch_db:barcodes_generator_product.view_product_template_form
 msgid "Generate Barcode (Using Barcode Rule)"
 msgstr "Generiraj barkod (koristi pravilo)"
 
 #. module: barcodes_generator_product
 #: model_terms:ir.ui.view,arch_db:barcodes_generator_product.product_variant_easy_edit_view
-#: model_terms:ir.ui.view,arch_db:barcodes_generator_product.view_product_product_form
-#: model_terms:ir.ui.view,arch_db:barcodes_generator_product.view_product_template_form
 msgid "Generate Base"
 msgstr "Generiši bazu"
 
 #. module: barcodes_generator_product
 #: model_terms:ir.ui.view,arch_db:barcodes_generator_product.product_variant_easy_edit_view
-#: model_terms:ir.ui.view,arch_db:barcodes_generator_product.view_product_product_form
-#: model_terms:ir.ui.view,arch_db:barcodes_generator_product.view_product_template_form
 msgid "Generate Base (Using Sequence)"
 msgstr "Generiraj osnovno ( koristi br.krug)"
 
@@ -71,14 +63,15 @@ msgstr "Model generiranja"
 
 #. module: barcodes_generator_product
 #: model:ir.model.fields,field_description:barcodes_generator_product.field_product_product__generate_type
-#: model:ir.model.fields,field_description:barcodes_generator_product.field_product_template__generate_type
 msgid "Generate Type"
 msgstr "Tip generiranja"
 
 #. module: barcodes_generator_product
 #: model:ir.model.fields,help:barcodes_generator_product.field_barcode_rule__generate_model
 msgid "If 'Generate Type' is set, mention the model related to this rule."
-msgstr "Ako je 'Tip generiranja' postavljen, spomenite model povezan s ovim pravilom."
+msgstr ""
+"Ako je 'Tip generiranja' postavljen, spomenite model povezan s ovim "
+"pravilom."
 
 #. module: barcodes_generator_product
 #: model:ir.model,name:barcodes_generator_product.model_product_template
@@ -116,3 +109,5 @@ msgid ""
 "This value is used to generate barcode according to the setting of the "
 "barcode rule."
 msgstr ""
+"Ova vrijednost se koristi za generisanje barkoda prema postavkama pravila "
+"barkoda."

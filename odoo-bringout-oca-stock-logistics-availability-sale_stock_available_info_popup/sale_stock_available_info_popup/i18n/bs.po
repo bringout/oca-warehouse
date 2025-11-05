@@ -13,18 +13,21 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: sale_stock_available_info_popup
 #. odoo-javascript
-#: code:addons/sale_stock_available_info_popup/static/src/xml/qty_at_date.xml:0
+#: code:addons/sale_stock_available_info_popup/static/src/xml/qty_at_date.xml
 #, python-format
 msgid "Available to promise"
 msgstr "Dostupno za ponuditi"
 
+# taken from hr.po
 #. module: sale_stock_available_info_popup
 #: model:ir.model.fields,field_description:sale_stock_available_info_popup.field_sale_order_line__immediately_usable_qty_today
 msgid "Immediately Usable Qty Today"
 msgstr "Danas raspoloživa količina"
 
+# taken from hr.po
 #. module: sale_stock_available_info_popup
 #: model:ir.model,name:sale_stock_available_info_popup.model_sale_order_line
 msgid "Sales Order Line"

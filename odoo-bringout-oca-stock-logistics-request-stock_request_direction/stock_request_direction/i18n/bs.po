@@ -15,19 +15,16 @@ msgstr ""
 
 #. module: stock_request_direction
 #: model:ir.model.fields,field_description:stock_request_direction.field_stock_request__direction
-#: model:ir.model.fields,field_description:stock_request_direction.field_stock_request_order__direction
 msgid "Direction"
 msgstr "Smjer"
 
 #. module: stock_request_direction
 #: model:ir.model.fields.selection,name:stock_request_direction.selection__stock_request__direction__inbound
-#: model:ir.model.fields.selection,name:stock_request_direction.selection__stock_request_order__direction__inbound
 msgid "Inbound"
 msgstr "Dolazni"
 
 #. module: stock_request_direction
 #: model:ir.model.fields.selection,name:stock_request_direction.selection__stock_request__direction__outbound
-#: model:ir.model.fields.selection,name:stock_request_direction.selection__stock_request_order__direction__outbound
 msgid "Outbound"
 msgstr "Izlazni"
 

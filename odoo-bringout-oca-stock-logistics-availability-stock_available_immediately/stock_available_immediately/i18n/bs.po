@@ -13,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: stock_available_immediately
 #: model:ir.model,name:stock_available_immediately.model_product_product
 msgid "Product Variant"

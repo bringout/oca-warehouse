@@ -21,6 +21,10 @@ msgid ""
 " - 'Base Set Manually' : User should set manually the value of the barcode base\n"
 " - 'Base managed by Sequence': System will generate the base via a sequence"
 msgstr ""
+"Omogućava generisanje barkoda, uključujući broj (bazu) u konačnom barkodu.\n"
+"\n"
+" - 'Baza postavljena ručno' : Korisnik treba ručno postaviti vrijednost baze barkoda\n"
+" - 'Baza upravljana sekvencijom': Sistem će generisati bazu putem sekvence"
 
 #. module: barcodes_generator_package
 #: model:ir.model.fields,field_description:barcodes_generator_package.field_product_packaging__barcode_base
@@ -29,7 +33,6 @@ msgstr "Baza barkoda"
 
 #. module: barcodes_generator_package
 #: model:ir.model,name:barcodes_generator_package.model_barcode_rule
-#: model:ir.model.fields,field_description:barcodes_generator_package.field_product_packaging__barcode_rule_id
 msgid "Barcode Rule"
 msgstr "Barkod pravilo"
 
@@ -38,6 +41,7 @@ msgstr "Barkod pravilo"
 msgid "Generate Barcode"
 msgstr "Generiraj barkodove"
 
+# taken from hr.po
 #. module: barcodes_generator_package
 #: model_terms:ir.ui.view,arch_db:barcodes_generator_package.product_packaging_form_view
 msgid "Generate Barcode (Using Barcode Rule)"
@@ -48,6 +52,7 @@ msgstr "Generiraj barkod (koristi pravilo)"
 msgid "Generate Base"
 msgstr "Generiši bazu"
 
+# taken from hr.po
 #. module: barcodes_generator_package
 #: model_terms:ir.ui.view,arch_db:barcodes_generator_package.product_packaging_form_view
 msgid "Generate Base (Using Sequence)"
@@ -66,11 +71,13 @@ msgstr "Tip generiranja"
 #. module: barcodes_generator_package
 #: model:ir.model.fields,help:barcodes_generator_package.field_barcode_rule__generate_model
 msgid "If 'Generate Type' is set, mention the model related to this rule."
-msgstr "Ako je 'Tip generiranja' postavljen, spomenite model povezan s ovim pravilom."
+msgstr ""
+"Ako je 'Tip generiranja' postavljen, spomenite model povezan s ovim "
+"pravilom."
 
+# taken from hr.po
 #. module: barcodes_generator_package
 #: model:ir.model,name:barcodes_generator_package.model_product_packaging
-#: model:ir.model.fields.selection,name:barcodes_generator_package.selection__barcode_rule__generate_model__product_packaging
 msgid "Product Packaging"
 msgstr "Pakiranje proizvoda"
 
@@ -85,3 +92,5 @@ msgid ""
 "This value is used to generate barcode according to the setting of the "
 "barcode rule."
 msgstr ""
+"Ova vrijednost se koristi za generisanje barkoda prema postavkama pravila "
+"barkoda."

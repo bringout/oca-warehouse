@@ -13,26 +13,27 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: stock_available
 #: model_terms:ir.ui.view,arch_db:stock_available.product_normal_form_view
-#: model_terms:ir.ui.view,arch_db:stock_available.view_stock_available_form
 msgid "<span class=\"o_stat_text\">Available</span>"
 msgstr "<span class=\"o_stat_text\">Raspoloživo</span>"
 
+# taken from hr.po
 #. module: stock_available
 #: model_terms:ir.ui.view,arch_db:stock_available.product_normal_form_view
-#: model_terms:ir.ui.view,arch_db:stock_available.view_stock_available_form
 msgid "<span class=\"o_stat_text\">Potential</span>"
 msgstr "<span class=\"o_stat_text\">Potencijalno</span>"
 
+# taken from hr.po
 #. module: stock_available
 #: model_terms:ir.ui.view,arch_db:stock_available.view_stock_available_kanban
 msgid "Available to Promise:"
 msgstr "Raspoloživo za obećati:"
 
+# taken from hr.po
 #. module: stock_available
 #: model:ir.model.fields,field_description:stock_available.field_product_product__immediately_usable_qty
-#: model:ir.model.fields,field_description:stock_available.field_product_template__immediately_usable_qty
 msgid "Available to promise"
 msgstr "Raspoloživo za obećati"
 
@@ -43,28 +44,36 @@ msgid ""
 "If empty, Quantity On Hand is used.\n"
 "Only the quantity fields have meaning for computing stock"
 msgstr ""
+"Odaberite polje proizvoda koje će se koristiti za izračun potencijala.\n"
+"Ako je prazno, koristi se dostupna količina.\n"
+"Samo polja količine imaju smisla za izračun zalihe"
 
+# taken from hr.po
 #. module: stock_available
 #: model:ir.model,name:stock_available.model_res_config_settings
+#, fuzzy
 msgid "Config Settings"
 msgstr "stock.config.settings"
 
+# taken from hr.po
 #. module: stock_available
 #: model:ir.model.fields,field_description:stock_available.field_res_config_settings__module_stock_available_immediately
 msgid "Exclude incoming goods"
 msgstr "Isključi robu u dolasku"
 
+# taken from hr.po
 #. module: stock_available
 #: model:ir.model.fields,field_description:stock_available.field_res_config_settings__module_stock_available_mrp
 msgid "Include the production potential"
 msgstr "Isključi potencijal proizvodnje"
 
+# taken from hr.po
 #. module: stock_available
 #: model:ir.model.fields,field_description:stock_available.field_product_product__potential_qty
-#: model:ir.model.fields,field_description:stock_available.field_product_template__potential_qty
 msgid "Potential"
 msgstr "Potencijal"
 
+# taken from hr.po
 #. module: stock_available
 #: model:ir.model,name:stock_available.model_product_template
 msgid "Product"
@@ -81,6 +90,8 @@ msgid ""
 "Quantity of this Product that could be produced using the materials already "
 "at hand."
 msgstr ""
+"Količina ovog proizvoda koja se može proizvesti koristeći materijale već pri"
+" ruci."
 
 #. module: stock_available
 #: model:ir.model.fields,help:stock_available.field_product_template__potential_qty
@@ -89,7 +100,11 @@ msgid ""
 "at hand. If the product has several variants, this will be the biggest "
 "quantity that can be made for a any single variant."
 msgstr ""
+"Količina ovog proizvoda koja se može proizvesti koristeći materijale koji su"
+" već dostupni. Ako proizvod ima više varijanti, ovo je najveća količina koja"
+" se može napraviti za bilo koju pojedinačnu varijantu."
 
+# taken from hr.po
 #. module: stock_available
 #: model_terms:ir.ui.view,arch_db:stock_available.view_stock_configuration
 msgid "Stock available to promise"
@@ -101,6 +116,8 @@ msgid ""
 "Stock for this Product that can be safely proposed for sale to Customers.\n"
 "The definition of this value can be configured to suit your needs"
 msgstr ""
+"Zaliha ovog proizvoda koja se može sigurno ponuditi kupcima.\n"
+"Definiciju ove vrijednosti možete prilagoditi svojim potrebama"
 
 #. module: stock_available
 #: model:ir.model.fields,help:stock_available.field_product_product__immediately_usable_qty
@@ -108,6 +125,8 @@ msgid ""
 "Stock for this Product that can be safely proposed for sale to Customers.\n"
 "The definition of this value can be configured to suit your needs."
 msgstr ""
+"Zalihe za ovaj proizvod koje se mogu bezbijedno predložiti za prodaju kupcima.\n"
+"Definicija ove vrijednosti se može konfigurirati da odgovara vašim potrebama."
 
 #. module: stock_available
 #: model:ir.model.fields,help:stock_available.field_res_config_settings__module_stock_available_mrp
@@ -116,6 +135,9 @@ msgid ""
 "This installs the module stock_available_mrp.\n"
 "If the module mrp is not installed, this will install it too"
 msgstr ""
+"Ovo će dodati količine robe koja se može odmah proizvesti u količine dostupne za obećanje kupcima.\n"
+"Time se instalira modul stock_available_mrp.\n"
+"Ako modul mrp nije instaliran, biće instaliran također."
 
 #. module: stock_available
 #: model:ir.model.fields,help:stock_available.field_res_config_settings__module_stock_available_immediately
@@ -123,7 +145,10 @@ msgid ""
 "This will subtract incoming quantities from the quantities available to promise.\n"
 "This installs the module stock_available_immediately."
 msgstr ""
+"Ovo će oduzeti dolazne količine od količina dostupnih za obećanje.\n"
+"Time se instalira modul stock_available_immediately."
 
+# taken from hr.po
 #. module: stock_available
 #: model:ir.model.fields,field_description:stock_available.field_res_config_settings__stock_available_mrp_based_on
 msgid "based on"

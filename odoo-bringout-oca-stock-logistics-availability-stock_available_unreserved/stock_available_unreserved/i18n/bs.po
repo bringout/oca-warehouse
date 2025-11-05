@@ -13,30 +13,35 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: stock_available_unreserved
 #: model:ir.model.fields,field_description:stock_available_unreserved.field_stock_quant__contains_unreserved
 msgid "Contains unreserved products"
 msgstr "Sadrži proizvode bez rezervacija"
 
+# taken from hr.po
 #. module: stock_available_unreserved
 #: model_terms:ir.ui.view,arch_db:stock_available_unreserved.quant_search_view
 msgid "Internal Unreserved"
 msgstr "Interno ne rezervirano"
 
+# taken from hr.po
 #. module: stock_available_unreserved
 #. odoo-python
-#: code:addons/stock_available_unreserved/models/product_product.py:0
+#: code:addons/stock_available_unreserved/models/product_product.py
 #, python-format
 msgid "Invalid domain operator %s"
 msgstr "Neispravan operator domene %s"
 
+# taken from hr.po
 #. module: stock_available_unreserved
 #. odoo-python
-#: code:addons/stock_available_unreserved/models/product_product.py:0
+#: code:addons/stock_available_unreserved/models/product_product.py
 #, python-format
 msgid "Invalid domain right operand %s"
 msgstr "Neispravan desni operand domene %s"
 
+# taken from hr.po
 #. module: stock_available_unreserved
 #: model:ir.model,name:stock_available_unreserved.model_product_template
 msgid "Product"
@@ -47,11 +52,13 @@ msgstr "Proizvod"
 msgid "Product Variant"
 msgstr "Varijanta proizvoda"
 
+# taken from hr.po
 #. module: stock_available_unreserved
 #: model:ir.model.fields,field_description:stock_available_unreserved.field_product_product__qty_available_not_res
 msgid "Qty Available Not Reserved"
 msgstr "Dostupna količina bez rezervacija"
 
+# taken from hr.po
 #. module: stock_available_unreserved
 #: model:ir.model.fields,field_description:stock_available_unreserved.field_product_template__qty_available_not_res
 msgid "Quantity On Hand Unreserved"
@@ -59,32 +66,36 @@ msgstr "Dostupna količina pri ruci bez rezerv"
 
 #. module: stock_available_unreserved
 #: model:ir.model.fields,help:stock_available_unreserved.field_product_product__qty_available_not_res
-#: model:ir.model.fields,help:stock_available_unreserved.field_product_template__qty_available_not_res
 msgid ""
 "Quantity of this product that is not currently reserved for a stock move"
 msgstr ""
+"Količina ovog proizvoda koja trenutno nije rezervisana za kretanje zaliha"
 
+# taken from hr.po
 #. module: stock_available_unreserved
 #: model:ir.model,name:stock_available_unreserved.model_stock_quant
 msgid "Quants"
 msgstr "Kvanti"
 
+# taken from hr.po
 #. module: stock_available_unreserved
 #: model_terms:ir.ui.view,arch_db:stock_available_unreserved.product_template_search_form_view_stock
 msgid "Reservable Products"
 msgstr "Proizvodi koje se može rezervirati"
 
+# taken from hr.po
 #. module: stock_available_unreserved
 #: model:ir.actions.act_window,name:stock_available_unreserved.product_open_quants_unreserved
 msgid "Stock On Hand (Unreserved)"
 msgstr "Dostupna zaliha (ne rezervirana)"
 
+# taken from hr.po
 #. module: stock_available_unreserved
 #: model_terms:ir.ui.view,arch_db:stock_available_unreserved.product_form_view_procurement_button
-#: model_terms:ir.ui.view,arch_db:stock_available_unreserved.product_template_form_view_procurement_button
 msgid "Unreserved"
 msgstr "Odrezervirano"
 
+# taken from hr.po
 #. module: stock_available_unreserved
 #: model_terms:ir.ui.view,arch_db:stock_available_unreserved.product_template_kanban_stock_view
 msgid "Unreserved:"

@@ -49,6 +49,8 @@ msgid ""
 "<span> | </span>\n"
 "                                                    <span for=\"product_ref_done\">#Read: </span>"
 msgstr ""
+"<span> | </span>\n"
+"                                                    <span for=\"product_ref_done\">#Pročitano: </span>"
 
 #. module: stock_barcodes_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form
@@ -57,7 +59,7 @@ msgstr "Jeste li sigurni da želite validirati seriju pobranja?"
 
 #. module: stock_barcodes_picking_batch
 #. odoo-python
-#: code:addons/stock_barcodes_picking_batch/wizard/stock_barcodes_read_picking_batch.py:0
+#: code:addons/stock_barcodes_picking_batch/wizard/stock_barcodes_read_picking_batch.py
 #, python-format
 msgid "Barcode reader"
 msgstr "Čitač barkoda"
@@ -89,8 +91,7 @@ msgstr "Kandidatske serije pobranja za interfejs barkoda"
 
 #. module: stock_barcodes_picking_batch
 #. odoo-python
-#: code:addons/stock_barcodes_picking_batch/wizard/stock_barcodes_read_picking_batch.py:0
-#: code:addons/stock_barcodes_picking_batch/wizard/stock_barcodes_read_picking_batch.py:0
+#: code:addons/stock_barcodes_picking_batch/wizard/stock_barcodes_read_picking_batch.py
 #, python-format
 msgid "Click on picking batch pushpin to lock it"
 msgstr "Kliknite na kopču serije pobranja da je zakljuačate"
@@ -150,7 +151,7 @@ msgstr "Na čekanju"
 msgid ""
 "It allows to work with movements without reservation (Without detailed "
 "operations)"
-msgstr ""
+msgstr "Omogućava rad sa pokretima bez rezervacije (Bez detaljnih operacija)"
 
 #. module: stock_barcodes_picking_batch
 #: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch____last_update
@@ -199,7 +200,6 @@ msgstr "Način pobranja"
 
 #. module: stock_barcodes_picking_batch
 #: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__picking_batch_id
-#: model:stock.barcodes.action,name:stock_barcodes_picking_batch.stock_barcodes_action_picking_batch
 msgid "Picking batch"
 msgstr "Serija pobranja"
 
@@ -220,7 +220,6 @@ msgstr "Broj skeniranja"
 
 #. module: stock_barcodes_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.stock_batch_picking_form
-#: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.stock_picking_batch_kanban
 msgid "Start barcode interface"
 msgstr "Pokreni interfejs barkoda"
 

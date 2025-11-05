@@ -85,16 +85,18 @@ msgstr "Sekvenca"
 
 #. module: stock_quant_package_multi_reference
 #. odoo-python
-#: code:addons/stock_quant_package_multi_reference/models/stock_quant_package_reference.py:0
+#: code:addons/stock_quant_package_multi_reference/models/stock_quant_package_reference.py
 #, python-format
 msgid ""
 "The Reference \"%(reference_name)s\" already exists for package "
 "\"%(package_name)s\" in the company %(company_name)s"
 msgstr ""
+"Referenca \"%(reference_name)s\" već postoji za pakovanje "
+"\"%(package_name)s\" u kompaniji %(company_name)s"
 
 #. module: stock_quant_package_multi_reference
 #. odoo-python
-#: code:addons/stock_quant_package_multi_reference/models/stock_quant_package.py:0
+#: code:addons/stock_quant_package_multi_reference/models/stock_quant_package.py
 #, python-format
 msgid "Unknown Pack"
 msgstr "Nepoznati paket"

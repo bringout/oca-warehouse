@@ -49,6 +49,8 @@ msgid ""
 "<strong>Barcode Format</strong>\n"
 "                    <br/>"
 msgstr ""
+"<strong>Format barkoda</strong>\n"
+"                    <br/>"
 
 #. module: stock_picking_product_barcode_report
 #: model_terms:ir.ui.view,arch_db:stock_picking_product_barcode_report.view_stock_barcode_selection_printing
@@ -56,6 +58,8 @@ msgid ""
 "<strong>Barcode Report</strong>\n"
 "                    <br/>"
 msgstr ""
+"<strong>Izvještaj barkoda</strong>\n"
+"                    <br/>"
 
 #. module: stock_picking_product_barcode_report
 #: model_terms:ir.ui.view,arch_db:stock_picking_product_barcode_report.view_stock_barcode_selection_printing
@@ -63,6 +67,8 @@ msgid ""
 "<strong>Label Quantity</strong>\n"
 "                    <br/>"
 msgstr ""
+"<strong>Količina etiketa</strong>\n"
+"                    <br/>"
 
 #. module: stock_picking_product_barcode_report
 #: model_terms:ir.ui.view,arch_db:stock_picking_product_barcode_report.view_stock_barcode_selection_printing
@@ -70,10 +76,11 @@ msgid ""
 "<strong>Language</strong>\n"
 "                    <br/>"
 msgstr ""
+"<strong>Jezik</strong>\n"
+"                    <br/>"
 
 #. module: stock_picking_product_barcode_report
 #: model_terms:ir.ui.view,arch_db:stock_picking_product_barcode_report.report_label_barcode
-#: model_terms:ir.ui.view,arch_db:stock_picking_product_barcode_report.report_label_barcode_quant_package
 msgid "Barcode"
 msgstr "Barkod"
 
@@ -109,13 +116,11 @@ msgstr "Postavke"
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__create_uid
-#: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__create_date
-#: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -131,7 +136,6 @@ msgstr "Prilagođena etiketa"
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_res_company__barcode_default_report
-#: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_res_config_settings__barcode_default_report
 msgid "Default template for barcode labels"
 msgstr "Zadani template za etikete barkodova"
 
@@ -142,13 +146,11 @@ msgstr "Odred. pakovanje"
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields.selection,name:stock_picking_product_barcode_report.selection__res_company__barcode_report_default_format__gs1_128
-#: model:ir.model.fields.selection,name:stock_picking_product_barcode_report.selection__stock_picking_print__barcode_format__gs1_128
 msgid "Display GS1_128 format for barcodes"
 msgstr "Prikaži GS1_128 format za barkodove"
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__display_name
-#: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -169,7 +171,6 @@ msgstr "Html sadržaj"
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__id
-#: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__id
 msgid "ID"
 msgstr "ID"
 
@@ -179,6 +180,8 @@ msgid ""
 "If checked, Odoo take into account the units included in the packaging to "
 "compute number of labels"
 msgstr ""
+"Ako je označeno, Odoo uzima u obzir jedinice uključene u pakovanje pri "
+"računanju broja etiketa"
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__is_custom_label
@@ -227,19 +230,16 @@ msgstr "Jezik"
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print____last_update
-#: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__write_uid
-#: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_line_print__write_date
-#: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_stock_picking_print__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -250,7 +250,6 @@ msgstr "Lot/Serijski broj"
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_res_company__barcode_report_default_format
-#: model:ir.model.fields,field_description:stock_picking_product_barcode_report.field_res_config_settings__barcode_report_default_format
 msgid "Method to choose the barcode formating"
 msgstr "Metoda za izbor formatiranja barkoda"
 
@@ -291,9 +290,6 @@ msgstr "Štampaj liniju preuzimanja"
 
 #. module: stock_picking_product_barcode_report
 #: model:ir.actions.act_window,name:stock_picking_product_barcode_report.act_stock_barcode_selection_printing
-#: model:ir.actions.act_window,name:stock_picking_product_barcode_report.act_stock_barcode_selection_printing_lot
-#: model:ir.actions.act_window,name:stock_picking_product_barcode_report.act_stock_barcode_selection_printing_quant
-#: model:ir.actions.act_window,name:stock_picking_product_barcode_report.act_stock_barcode_selection_printing_sml
 msgid "Print barcode labels"
 msgstr "Štampaj etikete sa barkodom"
 

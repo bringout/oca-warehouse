@@ -35,7 +35,6 @@ msgstr "Narudžba zahtjeva zaliha"
 
 #. module: stock_request_submit
 #: model_terms:ir.ui.view,arch_db:stock_request_submit.stock_request_order_form
-#: model_terms:ir.ui.view,arch_db:stock_request_submit.view_stock_request_form
 msgid "Submit"
 msgstr "Podnesi"
 
@@ -46,7 +45,7 @@ msgstr "Podneseno"
 
 #. module: stock_request_submit
 #. odoo-python
-#: code:addons/stock_request_submit/models/stock_request_order.py:0
+#: code:addons/stock_request_submit/models/stock_request_order.py
 #, python-format
 msgid "There should be at least one request item for submiting the order."
 msgstr "Treba biti najmanje jedna stavka zahtjeva za podnošenje narudžbe."
