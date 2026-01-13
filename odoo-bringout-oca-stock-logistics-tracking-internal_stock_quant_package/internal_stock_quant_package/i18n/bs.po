@@ -75,17 +75,17 @@ msgstr "Interna upotreba?"
 #. module: internal_stock_quant_package
 #: model:ir.model.fields,field_description:internal_stock_quant_package.field_stock_internal_package_config_line____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: internal_stock_quant_package
 #: model:ir.model.fields,field_description:internal_stock_quant_package.field_stock_internal_package_config_line__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: internal_stock_quant_package
 #: model:ir.model.fields,field_description:internal_stock_quant_package.field_stock_internal_package_config_line__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: internal_stock_quant_package
 #: model:ir.model,name:internal_stock_quant_package.model_stock_quant_package

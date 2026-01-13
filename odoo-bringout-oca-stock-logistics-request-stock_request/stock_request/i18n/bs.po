@@ -27,7 +27,7 @@ msgstr ""
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna radnja"
+msgstr "Potrebna akcija"
 
 #. module: stock_request
 #: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
@@ -42,7 +42,7 @@ msgstr "Aktivnosti"
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoracija izuzetka aktivnosti"
+msgstr "Dekoracija iznimke aktivnosti"
 
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__activity_state
@@ -115,7 +115,7 @@ msgstr "Otkaži"
 #. module: stock_request
 #: model:ir.model.fields.selection,name:stock_request.selection__stock_request__state__cancel
 msgid "Cancelled"
-msgstr "Otkazano"
+msgstr "Otkazan"
 
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__allowed_uom_categ_id
@@ -140,7 +140,7 @@ msgstr "Kompanije"
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: stock_request
 #. odoo-python
@@ -152,7 +152,7 @@ msgstr "Kompanija mora biti jednaka narudžbi"
 #. module: stock_request
 #: model:ir.model,name:stock_request.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: stock_request
 #: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_form
@@ -202,7 +202,7 @@ msgstr "Prikazani naziv"
 #. module: stock_request
 #: model:ir.model.fields.selection,name:stock_request.selection__stock_request__state__done
 msgid "Done"
-msgstr "Dovršeno"
+msgstr "Gotovo"
 
 #. module: stock_request
 #: model:ir.model.fields.selection,name:stock_request.selection__stock_request__state__draft
@@ -259,12 +259,12 @@ msgstr "Završeno"
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__message_follower_ids
 msgid "Followers"
-msgstr "Pratitelji"
+msgstr "Pratioci"
 
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratitelji (partneri)"
+msgstr "Pratioci (Partneri)"
 
 #. module: stock_request
 #: model:ir.model.fields,help:stock_request.field_stock_request__activity_type_icon
@@ -274,7 +274,7 @@ msgstr "Font awesome ikona npr. fa-tasks"
 #. module: stock_request
 #: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_search
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_res_config_settings__group_stock_request_order
@@ -349,17 +349,17 @@ msgstr "Kanban"
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__location_id
@@ -396,7 +396,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__message_ids
 msgid "Messages"
-msgstr "Nepročitane poruke"
+msgstr "Poruke"
 
 #. module: stock_request
 #: model:ir.model.fields,help:stock_request.field_stock_request__procurement_group_id
@@ -501,7 +501,7 @@ msgstr "Skladišnice"
 #. module: stock_request
 #: model:ir.model,name:stock_request.model_procurement_group
 msgid "Procurement Group"
-msgstr "Nalog za nabavu"
+msgstr "Grupa naručivanja"
 
 #. module: stock_request
 #. odoo-python
@@ -923,7 +923,7 @@ msgstr "Skladište mora biti jednako narudžbi"
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__website_message_ids
 msgid "Website Messages"
-msgstr "Nepročitane poruke"
+msgstr "Poruke sa website-a"
 
 #. module: stock_request
 #: model:ir.model.fields,help:stock_request.field_stock_request__website_message_ids

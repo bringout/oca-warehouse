@@ -21,7 +21,7 @@ msgstr "Kompanije"
 #. module: stock_available_exclude_location
 #: model:ir.model,name:stock_available_exclude_location.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: stock_available_exclude_location
 #: model:ir.model.fields,field_description:stock_available_exclude_location.field_res_company__stock_excluded_location_domain_char

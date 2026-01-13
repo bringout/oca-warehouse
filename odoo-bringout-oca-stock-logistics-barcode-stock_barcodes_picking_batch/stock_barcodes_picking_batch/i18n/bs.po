@@ -156,17 +156,17 @@ msgstr "Omogućava rad sa pokretima bez rezervacije (Bez detaljnih operacija)"
 #. module: stock_barcodes_picking_batch
 #: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_barcodes_picking_batch
 #: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_barcodes_picking_batch
 #: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_barcodes_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form

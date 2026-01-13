@@ -514,7 +514,7 @@ msgstr "Šifra"
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_picking__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: stock_barcodes
 #: model_terms:ir.ui.view,arch_db:stock_barcodes.view_stock_barcodes_new_lot
@@ -644,7 +644,7 @@ msgstr "Display Odoo notifications"
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_candidate_picking__product_qty_done
 msgid "Done"
-msgstr "Dovršeno"
+msgstr "Gotovo"
 
 #. module: stock_barcodes
 #: model:ir.model.fields.selection,name:stock_barcodes.selection__stock_move_line__barcode_scan_state__done_forced
@@ -942,17 +942,17 @@ msgstr "Key Shortcut"
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_report_stock_barcodes_report_barcode_actions____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_report_stock_barcodes_report_barcode_actions__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_report_stock_barcodes_report_barcode_actions__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_todo__line_ids
@@ -1329,7 +1329,7 @@ msgstr "Print barcodes from barcode actions"
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_new_lot__product_id
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read__total_product_uom_qty

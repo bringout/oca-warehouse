@@ -41,17 +41,17 @@ msgstr "Pojedinačna stavka u listi referenci pakovanja"
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference__stock_quant_package_id

@@ -26,22 +26,22 @@ msgstr "Broj nabavki"
 #. module: stock_request_purchase
 #: model:ir.model,name:stock_request_purchase.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 #. module: stock_request_purchase
 #: model:ir.model,name:stock_request_purchase.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"
 
 #. module: stock_request_purchase
 #: model:ir.model.fields,field_description:stock_request_purchase.field_stock_request__purchase_line_ids
 msgid "Purchase Order Lines"
-msgstr "Stavke zahtjeva za nabavu"
+msgstr "Stavke narudžbenice"
 
 #. module: stock_request_purchase
 #: model:ir.model.fields,field_description:stock_request_purchase.field_stock_request__purchase_ids
 msgid "Purchase Orders"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalozi u nabavi"
 
 #. module: stock_request_purchase
 #: model:ir.model,name:stock_request_purchase.model_stock_request

@@ -53,7 +53,7 @@ msgstr ""
 #: model:ir.model,name:stock_available.model_res_config_settings
 #, fuzzy
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "stock.config.settings"
 
 # taken from hr.po
 #. module: stock_available

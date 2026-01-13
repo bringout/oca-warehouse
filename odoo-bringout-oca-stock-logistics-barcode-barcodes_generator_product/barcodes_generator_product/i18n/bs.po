@@ -76,7 +76,7 @@ msgstr ""
 #. module: barcodes_generator_product
 #: model:ir.model,name:barcodes_generator_product.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: barcodes_generator_product
 #: model:ir.model,name:barcodes_generator_product.model_product_product
@@ -86,7 +86,7 @@ msgstr "Varijanta proizvoda"
 #. module: barcodes_generator_product
 #: model:ir.model.fields.selection,name:barcodes_generator_product.selection__barcode_rule__generate_model__product_product
 msgid "Products"
-msgstr "Proizvodi"
+msgstr "Artikli"
 
 #. module: barcodes_generator_product
 #: model:ir.model.fields,help:barcodes_generator_product.field_product_product__barcode_rule_id

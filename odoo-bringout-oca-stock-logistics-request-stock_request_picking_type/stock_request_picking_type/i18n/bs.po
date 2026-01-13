@@ -38,7 +38,7 @@ msgstr "Sve"
 #. module: stock_request_picking_type
 #: model_terms:ir.ui.view,arch_db:stock_request_picking_type.stock_request_type_kanban
 msgid "Done"
-msgstr "Dovršeno"
+msgstr "Gotovo"
 
 #. module: stock_request_picking_type
 #: model:ir.model.fields,field_description:stock_request_picking_type.field_stock_picking_type__count_sr_open
