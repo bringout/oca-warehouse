@@ -31,4 +31,4 @@ msgstr "Slobodno:"
 #. module: stock_free_quantity
 #: model:ir.model,name:stock_free_quantity.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
