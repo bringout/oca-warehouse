@@ -31,7 +31,7 @@ msgstr "Prevoznik za isporuku"
 #. module: internal_stock_quant_package
 #: model:ir.model.fields,field_description:internal_stock_quant_package.field_stock_internal_package_config_line__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: internal_stock_quant_package
 #: model:ir.model.fields,field_description:internal_stock_quant_package.field_stock_internal_package_config_line__empty
@@ -75,7 +75,7 @@ msgstr "Interna upotreba?"
 #. module: internal_stock_quant_package
 #: model:ir.model.fields,field_description:internal_stock_quant_package.field_stock_internal_package_config_line____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: internal_stock_quant_package
 #: model:ir.model.fields,field_description:internal_stock_quant_package.field_stock_internal_package_config_line__write_uid

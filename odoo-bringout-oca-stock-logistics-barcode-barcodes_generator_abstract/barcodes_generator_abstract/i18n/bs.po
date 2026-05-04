@@ -82,7 +82,7 @@ msgstr "Generiši barkodove"
 
 #. module: barcodes_generator_abstract
 #. odoo-python
-#: code:addons/barcodes_generator_abstract/models/barcode_generate_mixin.py
+#: code:addons/barcodes_generator_abstract/models/barcode_generate_mixin.py:0
 #, python-format
 msgid ""
 "Generate Base can be used only with barcode rule with 'Generate Type' set to"
@@ -140,7 +140,7 @@ msgstr "Odaberite pravilo za generiranje barkoda"
 
 #. module: barcodes_generator_abstract
 #. odoo-python
-#: code:addons/barcodes_generator_abstract/models/barcode_rule.py
+#: code:addons/barcodes_generator_abstract/models/barcode_rule.py:0
 #, python-format
 msgid "Sequence - %s"
 msgstr "Sekvenca - %s"

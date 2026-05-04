@@ -28,7 +28,7 @@ msgstr "Interno ne rezervirano"
 # taken from hr.po
 #. module: stock_available_unreserved
 #. odoo-python
-#: code:addons/stock_available_unreserved/models/product_product.py
+#: code:addons/stock_available_unreserved/models/product_product.py:0
 #, python-format
 msgid "Invalid domain operator %s"
 msgstr "Neispravan operator domene %s"
@@ -36,7 +36,7 @@ msgstr "Neispravan operator domene %s"
 # taken from hr.po
 #. module: stock_available_unreserved
 #. odoo-python
-#: code:addons/stock_available_unreserved/models/product_product.py
+#: code:addons/stock_available_unreserved/models/product_product.py:0
 #, python-format
 msgid "Invalid domain right operand %s"
 msgstr "Neispravan desni operand domene %s"

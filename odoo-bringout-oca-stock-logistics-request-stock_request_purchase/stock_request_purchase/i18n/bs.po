@@ -31,7 +31,7 @@ msgstr "Nalog za nabavu"
 #. module: stock_request_purchase
 #: model:ir.model,name:stock_request_purchase.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: stock_request_purchase
 #: model:ir.model.fields,field_description:stock_request_purchase.field_stock_request__purchase_line_ids
@@ -70,7 +70,7 @@ msgstr "Skladišno pravilo"
 
 #. module: stock_request_purchase
 #. odoo-python
-#: code:addons/stock_request_purchase/models/purchase_order_line.py
+#: code:addons/stock_request_purchase/models/purchase_order_line.py:0
 #, python-format
 msgid ""
 "You cannot link a purchase order line to a stock request that belongs to "
@@ -81,7 +81,7 @@ msgstr ""
 
 #. module: stock_request_purchase
 #. odoo-python
-#: code:addons/stock_request_purchase/models/stock_request.py
+#: code:addons/stock_request_purchase/models/stock_request.py:0
 #, python-format
 msgid ""
 "You have linked to a purchase order line that belongs to another company."

@@ -16,12 +16,12 @@ msgstr ""
 #. module: stock_available_immediately_exclude_location
 #: model:ir.model.fields,field_description:stock_available_immediately_exclude_location.field_stock_location__exclude_from_immediately_usable_qty
 msgid "Exclude from immediately usable quantity"
-msgstr "Exclude from immediately usable quantity"
+msgstr ""
 
 #. module: stock_available_immediately_exclude_location
 #: model_terms:ir.ui.view,arch_db:stock_available_immediately_exclude_location.stock_location_search_view
 msgid "Excluded from immediately usable quantities"
-msgstr "Excluded from immediately usable quantities"
+msgstr ""
 
 #. module: stock_available_immediately_exclude_location
 #: model:ir.model,name:stock_available_immediately_exclude_location.model_stock_location
@@ -36,4 +36,4 @@ msgstr "Varijanta proizvoda"
 #. module: stock_available_immediately_exclude_location
 #: model:ir.model.fields,help:stock_available_immediately_exclude_location.field_stock_location__exclude_from_immediately_usable_qty
 msgid "This property is not inherited by children locations"
-msgstr "This property is not inherited by children locations"
+msgstr ""

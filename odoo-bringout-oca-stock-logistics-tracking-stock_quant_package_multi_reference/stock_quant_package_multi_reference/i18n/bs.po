@@ -26,7 +26,7 @@ msgstr "Kreirano"
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference__id
@@ -41,7 +41,7 @@ msgstr "Pojedinačna stavka u listi referenci pakovanja"
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference__write_uid
@@ -81,11 +81,11 @@ msgstr "Reference"
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: stock_quant_package_multi_reference
 #. odoo-python
-#: code:addons/stock_quant_package_multi_reference/models/stock_quant_package_reference.py
+#: code:addons/stock_quant_package_multi_reference/models/stock_quant_package_reference.py:0
 #, python-format
 msgid ""
 "The Reference \"%(reference_name)s\" already exists for package "
@@ -96,7 +96,7 @@ msgstr ""
 
 #. module: stock_quant_package_multi_reference
 #. odoo-python
-#: code:addons/stock_quant_package_multi_reference/models/stock_quant_package.py
+#: code:addons/stock_quant_package_multi_reference/models/stock_quant_package.py:0
 #, python-format
 msgid "Unknown Pack"
 msgstr "Nepoznati paket"

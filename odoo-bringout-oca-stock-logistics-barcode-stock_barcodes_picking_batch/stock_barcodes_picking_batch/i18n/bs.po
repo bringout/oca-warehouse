@@ -41,7 +41,7 @@ msgstr "<span class=\"o_stat_text\">Skeniraj barkodove</span>"
 #. module: stock_barcodes_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form
 msgid "<span for=\"product_ref_count\">#Ref: </span>"
-msgstr "<span for=\"product_ref_count\">#Ref: </span>"
+msgstr ""
 
 #. module: stock_barcodes_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcodes_picking_batch.view_stock_barcodes_read_picking_batch_form
@@ -59,7 +59,7 @@ msgstr "Jeste li sigurni da želite validirati seriju pobranja?"
 
 #. module: stock_barcodes_picking_batch
 #. odoo-python
-#: code:addons/stock_barcodes_picking_batch/wizard/stock_barcodes_read_picking_batch.py
+#: code:addons/stock_barcodes_picking_batch/wizard/stock_barcodes_read_picking_batch.py:0
 #, python-format
 msgid "Barcode reader"
 msgstr "Čitač barkoda"
@@ -91,7 +91,7 @@ msgstr "Kandidatske serije pobranja za interfejs barkoda"
 
 #. module: stock_barcodes_picking_batch
 #. odoo-python
-#: code:addons/stock_barcodes_picking_batch/wizard/stock_barcodes_read_picking_batch.py
+#: code:addons/stock_barcodes_picking_batch/wizard/stock_barcodes_read_picking_batch.py:0
 #, python-format
 msgid "Click on picking batch pushpin to lock it"
 msgstr "Kliknite na kopču serije pobranja da je zakljuačate"
@@ -129,7 +129,7 @@ msgstr "Detaljne operacije"
 #. module: stock_barcodes_picking_batch
 #: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: stock_barcodes_picking_batch
 #: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__id
@@ -156,7 +156,7 @@ msgstr "Omogućava rad sa pokretima bez rezervacije (Bez detaljnih operacija)"
 #. module: stock_barcodes_picking_batch
 #: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: stock_barcodes_picking_batch
 #: model:ir.model.fields,field_description:stock_barcodes_picking_batch.field_wiz_candidate_picking_batch__write_uid
