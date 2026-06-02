@@ -26,7 +26,7 @@ msgstr "Kreirano"
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference__id
@@ -41,17 +41,17 @@ msgstr "Pojedinačna stavka u listi referenci pakovanja"
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: stock_quant_package_multi_reference
 #: model:ir.model.fields,field_description:stock_quant_package_multi_reference.field_stock_quant_package_reference__stock_quant_package_id
